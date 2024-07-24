@@ -1,0 +1,3 @@
+.footer {
+    @apply bg-primaryBlue w-full text-white text-center h-md text-xs
+}

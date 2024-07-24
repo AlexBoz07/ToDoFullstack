@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'my_font';
+  src: url('./assets/my_font.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: 'my_font', sans-serif;
+}

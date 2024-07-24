@@ -1,0 +1,4 @@
+.header {
+    color: white;
+@apply bg-primaryBlue w-full flex items-center justify-center text-4xl h-xl font-semibold
+}
