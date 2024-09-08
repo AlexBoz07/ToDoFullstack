@@ -1,0 +1,87 @@
+
+
+
+.containerT {
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 100%;
+    @apply fixed inset-0 flex justify-center
+}
+
+.addTask {
+    height: 20rem;
+    width: 20rem;
+    border: black solid 2px;
+    color: white;
+    @apply bg-primaryBlue mt-20 rounded-xl shadow-xl grid grid-cols-1 grid-rows-4 gap-3
+}
+
+.addTask h1 {
+ @apply font-bold text-xl text-center mt-5 
+}
+
+.button {
+  
+  @apply w-36 h-lg bg-secondaryBlue font-semibold rounded-full shadow-md hover:bg-primaryRed transition-colors duration-300 ml-16 mt-5 text-center
+
+
+}
+
+.add {
+  @apply w-36 h-lg bg-secondaryBlue font-semibold rounded-full shadow-md hover:bg-primaryGreen transition-colors duration-300 ml-16 mt-20 text-center
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    @apply ml-5
+  }
+  
+  .input-container input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 24px;
+    padding: 3px 0;
+    width: 200px;
+    outline: none;
+  }
+  
+  .input-container label {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    transition: transform 0.2s ease, color 0.2s ease;
+    pointer-events: none;
+  }
+  
+  .input-container input[type="text"]:focus + label,
+  .input-container input[type="text"]:not(:placeholder-shown) + label {
+    transform: translateY(-20px) scale(0.8);
+    color: #ccc;
+  }
+
+  .modal-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.modal-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.modal-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.modal-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}

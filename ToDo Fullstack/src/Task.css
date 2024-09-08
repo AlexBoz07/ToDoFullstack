@@ -1,3 +1,25 @@
 .taskBox {
-    @apply bg-cyan w-full mx-20
+    border: black 1px solid;
+    @apply bg-cyan flex justify-between items-center px-8 h-Principal w-full mx-20 rounded-md shadow-lg m-2
+
+}
+
+.taskTitle {
+    height: 100%;
+    @apply text-2xl font-semibold w-full flex items-center
+}
+
+.buttonsC {
+    height: 100%;
+    @apply flex items-center justify-end w-full
+}
+
+.complete {
+    height: 2.25rem;
+    @apply bg-primaryGreen mr-1 rounded-md w-9 text-xl shadow-2xl
+}
+
+.delete {
+    height: 2.25rem;
+    @apply bg-primaryRed rounded-md ml-1 w-9 text-sm shadow-2xl
 }
