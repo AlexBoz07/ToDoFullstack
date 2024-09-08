@@ -16,7 +16,8 @@ export default {
       'primaryRed': '#BC4749',
       'primaryGreen': '#A7C957',
       'white': '#ffffff',
-      'cyan': '#DCF3F8'
+      'cyan': '#DCF3F8',
+      'darkCyan':'#ACC5CB'
     },
     extend: {},
   },

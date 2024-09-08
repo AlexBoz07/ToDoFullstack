@@ -9,6 +9,11 @@
     @apply text-2xl font-semibold w-full flex items-center
 }
 
+.boxCheck {
+    @apply bg-darkCyan line-through flex justify-between items-center px-8 h-Principal w-full mx-20 rounded-md shadow-lg m-2; /* Fondo más oscuro y texto subrayado */
+    transition: background-color 0.3s ease, text-decoration 0.3s ease;
+}
+
 .buttonsC {
     height: 100%;
     @apply flex items-center justify-end w-full
